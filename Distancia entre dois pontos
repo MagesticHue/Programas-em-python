@@ -1,0 +1,14 @@
+x1 = int(input("Digite um número:"))
+x2 = int(input("Digite um número:"))
+y1 = int(input("Digite um número:"))
+y2 = int(input("Digite um número:"))
+
+import math
+
+d = math.sqrt(((x2 - x1)**2) + ((y2 - y1)**2))
+
+if d > 10 :
+		print("longe")
+
+else :
+		print("perto")
